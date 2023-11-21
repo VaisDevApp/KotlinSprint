@@ -8,5 +8,5 @@ fun main() {
     for (i in 1..countYear) {
         countMoneyEnd = countMoneyEnd + countMoneyEnd * percentYear / 100
     }
-    println(String.format("%.3f", countMoneyEnd))
+    println("Размер вклада на конец срока размещения: ${String.format("%.3f", countMoneyEnd)}")
 }
