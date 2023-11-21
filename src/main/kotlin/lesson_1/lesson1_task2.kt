@@ -7,6 +7,6 @@ fun main() {
     println(textThanksForThePurchase)
     var countWorkers: Int = 2000
     //println(countWorkers)
-    countWorkers = 2000-1
+    countWorkers = 2000 - 1
     println(countWorkers)
 }
